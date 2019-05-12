@@ -13,6 +13,11 @@ class Genre
     end
   end
 
+  def self.all
+    puts @all
+    @all
+  end
+
   def artists
     Song.all.map do |song|
       song.artist
