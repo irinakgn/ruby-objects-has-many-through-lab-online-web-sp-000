@@ -7,7 +7,7 @@ class Genre
   def initialize(name)
 
     @name = name
-    ALL << self.new(name)
+    ALL << self
   end
 
   def songs
