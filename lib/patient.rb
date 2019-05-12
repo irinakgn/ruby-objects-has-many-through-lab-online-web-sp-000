@@ -20,8 +20,8 @@ class Patient
   end
 
   def self.all
-    puts all
-    all
+    puts @all
+    @all
   end
 
   def doctors
