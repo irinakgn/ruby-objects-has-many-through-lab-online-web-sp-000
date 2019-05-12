@@ -19,7 +19,7 @@ class Patient
   end
 
   def self.all
-    all
+  @all
   end
 
   def doctors
